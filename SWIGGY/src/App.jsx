@@ -1,10 +1,10 @@
 import React from "react";
-import LandingPage from "./Pages/LandingPage";
+import LandingPage from "./Pages/LandingPage.jsx";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Products from "./Compounds/Products/Products";
-import AddCard from "./Compounds/AddCard.jsx/AddCard";
-import LoginForm from "./Compounds/LoginForm/LoginForm";
+import Products from "./Compounds/Products/Products.jsx";
+import AddCard from "./Compounds/AddCard.jsx/AddCard.jsx";
+import LoginForm from "./Compounds/LoginForm/LoginForm.jsx";
 
 function App() {
   return (
