@@ -1,0 +1,64 @@
+.mainSectionData {
+  position: absolute;
+  left: 92px;
+}
+.headingSection {
+  position: relative;
+  bottom: -190px;
+}
+
+.mainSectionData {
+  position: relative;
+  bottom: -203px;
+  left: -9px;
+}
+
+.imgSection img {
+  margin-right: 25px;
+  border: 5px;
+  border-radius: 10px;
+  height: 150px;
+  width: 250px;
+  margin-bottom: 60px;
+}
+.listData {
+  position: relative;
+  top: -95px;
+  left: -62px;
+}
+.listData li {
+  list-style-type: none;
+}
+.offer {
+  position: relative;
+  top: -105px;
+  font-size: x-large;
+  font-weight: 800;
+  left: -15px;
+  background: linear-gradient(to bottom, rgba(20, 0, 0, 0.08), black);
+  color: white;
+  text-transform: uppercase;
+}
+.region {
+  position: relative;
+  left: -27px;
+}
+.area {
+  position: relative;
+  left: -27px;
+}
+.total-Section {
+  position: relative;
+  bottom: -47px;
+}
+.filterButton {
+  position: relative;
+  top: 190px;
+  left: 40px;
+  display: flex;
+  gap: 29px;
+}
+.linkData {
+  text-decoration: none;
+  color: black;
+}

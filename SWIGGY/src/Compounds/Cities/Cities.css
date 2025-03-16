@@ -1,0 +1,18 @@
+#gap {
+  font-weight: bolder;
+  gap: 49px;
+}
+.head {
+  position: relative;
+  left: 31px;
+  top: -22px;
+  font-weight: bold;
+}
+.total {
+  position: relative;
+  top: 201px;
+  left: -28px;
+}
+#cardData {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}

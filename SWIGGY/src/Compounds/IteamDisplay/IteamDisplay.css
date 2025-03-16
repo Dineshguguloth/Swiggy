@@ -1,0 +1,12 @@
+.mainSection {
+  position: absolute;
+  bottom: 420px;
+  left: 70px;
+}
+.imageSection img {
+  position: relative;
+  bottom: 2px;
+  left: 150px;
+  height: 90px;
+  width: 100px;
+}

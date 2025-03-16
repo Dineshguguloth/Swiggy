@@ -1,0 +1,211 @@
+.navBarSection {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  position: fixed;
+  width: 1254px;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+}
+
+.logoSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logoSection,
+img {
+  height: 100px;
+  position: relative;
+  left: -21px;
+}
+.searchBarSection {
+  position: relative;
+  top: 24px;
+  left: 102px;
+}
+.loginSection {
+  position: relative;
+  left: 430px;
+  bottom: -28px;
+}
+.addcardsection {
+  position: relative;
+  left: 413px;
+  bottom: -35px;
+}
+.login {
+  position: relative;
+  left: 432px;
+  bottom: -33px;
+}
+.logoName {
+  position: relative;
+  left: -56px;
+}
+
+.searchData {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+}
+.suggestionsDropdown {
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  border-radius: 5px;
+}
+
+.suggestionItem {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.suggestionItem:hover {
+  background: #f0f0f0;
+}
+
+.searchBarSection {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.searchData {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.regionsData {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 16px;
+}
+
+.regionsData:hover {
+  background: #f0f0f0;
+}
+
+input.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button.btn-outline-success {
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
+/* .loginstyle {
+  position: absolute;
+  top: 0;
+  right: -650px;
+  transition: right 0.9s ease;
+}
+
+.loginstyle.show {
+  right: 0;
+} */
+.loginPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPopupContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.closeButton {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.closeButton:hover {
+  background: darkred;
+}
+
+.searchSuggestions {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  border: 1px solid #ddd;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.regionSuggestion {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.regionSuggestion:hover {
+  background-color: #f1f1f1;
+}
+
+.noResults {
+  padding: 10px;
+  color: gray;
+}
+.searchSuggestions {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  border: 1px solid #ddd;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 100;
+  top: 50px; /* Adjust this if necessary */
+}
+
+.regionSuggestion {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.regionSuggestion:hover {
+  background-color: #f1f1f1;
+}
+
+.noResults {
+  padding: 10px;
+  color: gray;
+  font-style: italic;
+}

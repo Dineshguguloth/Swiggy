@@ -1,0 +1,19 @@
+.chinesSection {
+  display: flex;
+  overflow-x: scroll;
+}
+#chinesSectionimage img {
+  margin-right: 25px;
+  border: 5px;
+  border-radius: 10px;
+  height: 200px;
+}
+.leftRigthButton {
+  position: relative;
+  left: 1009px;
+  top: 252px;
+}
+.totalSection {
+  position: relative;
+  top: 220px;
+}

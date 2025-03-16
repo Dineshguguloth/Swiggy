@@ -1,0 +1,35 @@
+.allData {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 174px;
+  position: relative;
+  bottom: -101px;
+}
+.imgData {
+  position: relative;
+  left: 482px;
+  bottom: -20px;
+}
+.allData {
+  /* border: 1px solid green; */
+  border-top: 2px solid lightgray;
+}
+.mainDiv {
+  padding: 0px 250px;
+}
+.imgData img {
+  height: 120px;
+  width: 150px;
+  border-radius: 8px 8px 8px 8px;
+}
+.ADDCARD {
+  position: relative;
+  bottom: 33px;
+  /* background: aliceblue; */
+  height: 30px;
+  width: -2px;
+  text-align: center;
+  /* color: green; */
+  left: -21px;
+}
